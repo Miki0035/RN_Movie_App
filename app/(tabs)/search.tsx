@@ -3,6 +3,7 @@ import SearchBar from "@/components/SearchBar";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import { fetchPopularMovies } from "@/services/api";
+import { updateSearchCount } from "@/services/appwrite";
 import useFetch from "@/services/useFetch";
 import React, { useEffect, useState } from "react";
 import { ActivityIndicator, FlatList, Image, Text, View } from "react-native";
@@ -21,6 +22,7 @@ const Search = () => {
   useEffect(() => {
     const timeoutId = setTimeout(async () => {
       if (searchQuery.trim()) {
+        // refetch movies based on query
         await loadMovies();
       } else {
         reset();
@@ -29,6 +31,16 @@ const Search = () => {
 
     return () => clearTimeout(timeoutId);
   }, [searchQuery]);
+
+  useEffect(() => {
+    if (!searchQuery.trim()) return;
+
+    // update record if there are movies
+    if (movies.length > 0) {
+      console.log("movies has value", movies[0].title);
+      updateSearchCount(searchQuery, movies[0]);
+    }
+  }, [movies]);
 
   const handleSearch = (text: string) => {
     setSearchQuery(text);
