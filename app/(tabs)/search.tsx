@@ -31,7 +31,6 @@ const Search = () => {
   }, [searchQuery]);
 
   const handleSearch = (text: string) => {
-    console.log("type text", text);
     setSearchQuery(text);
   };
 
