@@ -47,7 +47,7 @@ Adrian and JSMastery team😃 ) highly recommend if you want to upgrade your ski
 
 ## <a name="demo"> 🎬 Demo Video </a>
 
-👉 https://youtube.com/shorts/UrIVa--wyUQ?feature=share
+👉 https://youtube.com/shorts/UrIVa--wyUQ
 
 ## <a name="quick-start"> 🤸 Quick Start </a>
 
