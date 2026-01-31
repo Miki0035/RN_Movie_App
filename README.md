@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
 
-## Get started
+![thumbnail](/assets/images/movie_app_thumbnail.png)
 
-1. Install dependencies
+</div>
 
-   ```bash
-   npm install
-   ```
+<p align="center">
 
-2. Start the app
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![NativeWind](https://img.shields.io/badge/NativeWind-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-   ```bash
-   npx expo start
-   ```
+</p>
 
-In the output, you'll find options to open the app in a
+## 📋 <a name="table">Table of Contents</a>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. 👋 [Welcome](#welcome)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🎬 [Demo](#demo)
+5. 🤸 [Quick Start](#quick-start)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## <a name="welcome"> 👋 Welcome </a>
 
-## Get a fresh project
+Thanks for checking out this movie app repo. This app was built
+with [React Native](https://reactnative.dev/) / [Expo](https://expo.dev/) from one of JavaScript Mastery Youtube
+channel [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) (Shout out to
+Adrian and JSMastery team😃 ) highly recommend if you want to upgrade your skills as a react native developer. Check it out 😮 and let me know what you think.
 
-When you're ready, run:
+## <a name="tech-stack">⚙️ Tech Stack </a>
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Native Wind](https://www.nativewind.dev/)
+- [Appwrite](https://appwrite.io/)
+- [TMDB](https://www.themoviedb.org/)
+
+## <a name="features">🔋 Features</a>
+
+👉 **Popular Movies**: discover trending and most-watched movies updated in real time
+
+👉 **Smart Search History**: highlights movies users have searched multiple times for quick access
+
+👉 **Movie Search**: instantly find any movie by name with fast and accurate results
+
+## <a name="demo"> 🎬 Demo Video </a>
+
+👉 https://youtube.com/shorts/UrIVa--wyUQ?feature=share
+
+## <a name="quick-start"> 🤸 Quick Start </a>
+
+Follow this steps to setup the project locally on your machine.
+
+**Prerequsites**
+
+Make sure you have the following installed on your machine
+
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en/download)
+
+**Cloning the Repository**
 
 ```bash
-npm run reset-project
+git clone https://github.com/Miki0035/RN_Movie_App
+
+cd RN_Movie_App
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Installing dependencies**
 
-## Learn more
+Run the following command to install all dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Environment variables**
 
-## Join the community
+Create a .env file at the root of your project and add the variables as specified in the .env.example file
 
-Join our community of developers creating universal apps.
+**Running the Project**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Finally run
+
+```bash
+npm start
+```
+
+## <a name="more"> ❗ Don't forget </a>
+
+- For Appwrite to work you need an account on their platforms
